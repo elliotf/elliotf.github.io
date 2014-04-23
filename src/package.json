@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "wintersmith": "^2.0.10",
+    "underscore": "^1.6.0",
+    "moment": "^2.6.0",
+    "typogr": "^0.6.3"
+  }
+}
