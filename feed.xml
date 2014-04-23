@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FireTaco Heavy Industries</title>
+    <atom:link href="https://elliotf.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>https://elliotf.github.io/</link>
+    <description>A record of problems and solutions</description>
+    <pubDate>Mon, 21 Apr 2014 17:00:00 -0700</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Hello, World</title>
+      <link>https://elliotf.github.io//articles/hello/</link>
+      <pubDate>Mon, 21 Apr 2014 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://elliotf.github.io//articles/hello/</guid>
+      <author></author>
+      <description>&lt;p&gt;I’m tired of fighting a WYSIWYG editor at wordpress, so hello static site generator.&lt;/p&gt;
+&lt;p&gt;Hopefully having vim and using markdown will make me more likely to write down some of the things I’ve been meaning to.  Probably not, though.&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
