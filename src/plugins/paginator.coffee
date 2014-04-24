@@ -16,10 +16,14 @@ module.exports = (env, callback) ->
     options[key] ?= defaults[key]
 
   getArticles = (contents) ->
-    # helper that returns a list of articles found in *contents*
-    # note that each article is assumed to have its own directory in the articles directory
-    articles = contents[options.articles]._.directories.map (item) -> item.index
-    articles.sort (a, b) -> b.date - a.date
+    # find article-like things under the articles dir and treat them as articles
+    articles = []
+    recurse = (tree) ->
+      if tree.filepath && tree.metadata && tree.metadata.title
+        return articles.push tree
+      for key, value of tree
+        recurse value
+    recurse contents[options.articles]
     return articles
 
   class PaginatorPage extends env.plugins.Page
