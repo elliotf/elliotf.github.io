@@ -1,8 +1,6 @@
 ```metadata
 title:    Hello, World
-author:   elliotf
 date:     2014-04-22
-template: article.jade
 ```
 
 I'm tired of fighting a WYSIWYG editor at wordpress, so hello static site generator.
