@@ -1,7 +1,9 @@
 {
   "output": "../",
+  "defaultTemplate": "article.jade",
+  "filenameTemplate": "/:year-:month-:day-:title/index.html",
   "locals": {
-    "url": "https://elliotf.github.io/",
+    "url": "https://elliotf.github.io",
     "name": "FireTaco Heavy Industries",
     "owner": "Elliot F",
     "description": "A record of problems and solutions"
